@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Created by XiaoYu on 2017/12/5
 import torch
 import torch.nn as nn
 import torchvision.datasets as dsets
