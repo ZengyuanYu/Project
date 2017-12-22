@@ -117,5 +117,5 @@ for epoch in range(num_epochs):
     print('测试准确度： %d %%' % (100* correct / total))
 
 #存储模型
-#torch.save(cnn, '01cnn_gloable.pkl')
-#torch.save(cnn.state_dict(), '01cnn_parament.pkl')
+torch.save(cnn, '01cnn_gloable.pkl')
+torch.save(cnn.state_dict(), '01cnn_parament.pkl')
