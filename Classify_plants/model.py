@@ -57,7 +57,6 @@ class CNN(nn.Module):
         self.fc1 = nn.Linear(2000,100)
         self.fc2 = nn.Linear(100, 6)
     def forward(self, x):
-        #print(x.size())
         out = self.layer1(x)
         #print('layer1', out.size())
         out = self.layer2(out)#shape(batch_size,32,7,7)
