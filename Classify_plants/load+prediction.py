@@ -52,29 +52,4 @@ for images, labels in predict_loder:
     b = a[0,0]
     print(b)
     print(dict[b])
-#def read_one_image(path):
- #   img = io.imread(path)
-  #  img = transform.resize(img, (w,h))
-   # return torch.from_numpy(img).unsqueeze(0)
 
-#def read_one_image_numpy(path):
- #   img = io.imread(path)
-  #  img = transform.resize(img, (w,h))
-   # return img
-#image_numpy = read_one_image_numpy(path)
-#cv2.imshow('d',image_numpy)
-
-#image = Variable(read_one_image(path)).float().transpose(1,3).cuda()
-#print('输入： ',image)
-
-#cnn = torch.load('01cnn_gloable.pkl')
-#predict = cnn(image)
-#print('输出： ',predict)
-#索引值
-#_,index = torch.max(predict,1)
-#print('预测值： ',_,'索引值： ', index)
-#i = index.data[0]
-#print(flower_dict[i])
-#print(index.size())
-#print(index.data[0])
-#cv2.waitKey()
